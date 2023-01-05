@@ -1,0 +1,103 @@
+                #nav-container {
+                    position: absolute;
+                    top: 40px;
+                    left: 100px;
+                    width: 270px;
+                    height: 120px;
+                    background-color: rgb(29, 29, 31);
+                }
+                
+                #circle {
+                    width: 97px;
+                    height: 97px;
+                    border-radius: 50%;
+                    background-color: rgb(37, 35, 35);
+                    margin: 5px;
+                    padding: 5px;
+                    position: absolute;
+                    border: 3px solid rgb(14, 13, 13);
+                    overflow: hidden;
+                }
+                
+                .fa-caret-up {
+                    width: 40%;
+                    height: 20%;
+                    border-radius: 100px;
+                    color: whitesmoke;
+                }
+                
+                .up {
+                    background-color: rgb(23, 23, 24);
+                    justify-content: center;
+                    margin-left: 34px;
+                    border-radius: 50%;
+                    align-items: center;
+                }
+                
+                .fa-caret-right {
+                    width: 20px;
+                    height: 20px;
+                    color: whitesmoke;
+                    border-radius: 100px;
+                }
+                
+                .right {
+                    background-color: rgb(23, 23, 24);
+                    float: right;
+                    margin-top: 10px;
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    align-items: center;
+                }
+                
+                .fa-caret-left {
+                    width: 40%;
+                    height: 25%;
+                    border-radius: 60px;
+                    color: whitesmoke;
+                }
+                
+                .left {
+                    background-color: rgb(23, 23, 24);
+                    float: left;
+                    margin-top: 9px;
+                    border-radius: 50%;
+                    align-items: center;
+                }
+                
+                .fa-caret-down {
+                    width: 40%;
+                    height: 20%;
+                    border-radius: 100px;
+                    color: whitesmoke;
+                }
+                
+                .down {
+                    background-color: rgb(23, 23, 24);
+                    align-self: center;
+                    justify-content: center;
+                    margin-left: 34px;
+                    border-radius: 50%;
+                    align-items: center;
+                }
+                
+                .box {
+                    padding-right: 15px;
+                    float: right;
+                    display: block;
+                    color: aliceblue;
+                }
+                
+                .fa {
+                    color: aliceblue;
+                }
+                
+                .hi {
+                    border-radius: 30px 0px 0px 30px;
+                    background-color: rgb(19, 17, 17);
+                }
+                
+                .he {
+                    border-radius: 0px 30px 30px 0px;
+                    background-color: rgb(19, 17, 17);
+                }

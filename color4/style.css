@@ -1,0 +1,92 @@
+.pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.grid-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.grid-header {
+    font-weight: bold;
+    display: flex;
+    height: 90px;
+    background-color: #f5f5f5;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-feature {
+    font-weight: bold;
+}
+
+.plan-button {
+    background-color: #346c91;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .plan-button:hover {
+    background-color: #3f91c7;
+  }
+
+  .grid-header:nth-child(1) {
+    background-color: rgb(204, 163, 180);
+  }
+
+  .grid-header:nth-child(2) {
+    background-color: rgb(204, 123, 191);
+  }
+
+  .grid-header:nth-child(3) {
+    background-color: rgb(201, 87, 182);
+  }
+
+  .grid-header:nth-child(4) {
+    background-color: rgb(206, 32, 148);
+  }
+
+  .grid-header:nth-child(5) {
+    background-color: rgb(206, 3, 121);
+  }
+
+  .grid-row:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+  .grid-c:nth-child(even) {
+    background-color: rgba(246, 246, 246, 0.9);
+
+  }
+  
+  @media (max-width: 600px) {
+    .pricing-grid {
+      flex-wrap: wrap;
+    }
+  
+    .grid-row {
+      width: 100%;
+    }
+  
+    .grid-cell {
+      flex: 1;
+    }
+  }
+  
+        
+  
